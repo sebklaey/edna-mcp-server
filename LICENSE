@@ -1,0 +1,60 @@
+EDNA-1 Proprietary Commercial & Acquisition License (EPCAL-1.0)
+Version 1.0 (revised November 2026)
+
+Copyright © 2026 SEBKLAEY© Agency — Sebastian Kläy (@sebklaey)
+Official contact: sebklay@me.com
+All Rights Reserved.
+
+────────────────────────────────────────────────────────────────────
+
+1. DEFINITIONS
+
+"Software" means EDNA-1 (Enhanced Detection & Neural Analysis), including but not limited to
+the source code (src/edna.js), the MCP server (mcp/), SDK and TypeScript definitions
+(src/edna.d.ts), the profile-hash module (src/profile-hash.js), PWA templates (pwa/), the
+verification harness and test vectors (verification/), documentation, the 16 behavioral
+signal weights, the consensus logic, and the "Human Proof Seal" design.
+
+"Licensor" means SEBKLAEY© Agency, represented by Sebastian Kläy (@sebklaey),
+sebklay@me.com.
+
+"Evaluation" means downloading, running and testing the Software on your own devices,
+solely to assess its functionality — non-commercially and without production deployment.
+
+"Commercial Use" means any use of the Software or any part of it (i) in a production
+environment, (ii) in any product or service offered for consideration, (iii) within any
+revenue-generating business process, (iv) by any legal entity other than pure evaluation,
+or (v) as a component of AI-provider, platform or enterprise infrastructure.
+
+2. OWNERSHIP AND INTELLECTUAL PROPERTY
+
+The Software is the exclusive intellectual property of the Licensor and is protected by
+international copyright law, trade secret law and, where applicable, patent law. No title,
+ownership or intellectual-property rights are transferred by this license. All rights not
+expressly granted are reserved.
+
+3. FREE EVALUATION LICENSE
+
+The Licensor grants you a personal, non-exclusive, non-transferable, non-sublicensable and
+revocable license to:
+
+  a) download and view the Software;
+  b) execute the Software for Evaluation purposes only, including running the published
+     verification harness and test vectors;
+  c) share links to this repository.
+
+You may NOT, under any circumstances:
+
+  a) use the Software, or any part of it, for Commercial Use;
+  b) copy, reproduce, mirror, redistribute, publish, rent, lease, lend, sell or
+     sub-license the Software — in source or compiled form — beyond the scope of Section 3;
+  c) incorporate the Software, or any part of it, into any other product, service, model
+     or dataset, including as training data for competing detection, verification or
+     identity systems;
+  d) modify, translate, adapt or create derivative works of the Software, except for the
+     explicit integration surfaces documented in the README;
+  e) remove, alter or obscure any copyright notice, license text or the "Human Proof Seal";
+  f) decompile, disassemble, reverse engineer, or attempt to bypass, replicate or
+     circumvent the engine, its scoring, its detection logic or its license enforcement.
+
+Full license text: https://openos.space · Contact: sebklay@me.com
