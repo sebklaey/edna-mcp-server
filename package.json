@@ -1,0 +1,34 @@
+{
+  "name": "edna-mcp-server",
+  "version": "1.4.1-main.1",
+  "description": "EDNA MCP server — behavioral-biometric human sensing for AI (100% on-device). Stdio MCP wrapper around the edna-engine npm package (EPCAL-1.0).",
+  "main": "index.js",
+  "bin": {
+    "edna-mcp": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "edna-engine": "1.4.1-main.1"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "behavioral-biometrics",
+    "human-sensing",
+    "proof-of-humanity",
+    "edna",
+    "openos"
+  ],
+  "author": "Sebastian Kläy <@sebklaey> (https://sebklaey.app)",
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebklaey/edna-mcp-server.git"
+  },
+  "homepage": "https://openos.space"
+}
