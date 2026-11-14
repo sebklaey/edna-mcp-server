@@ -4,16 +4,27 @@
 
 ## Install
 
+Published as [`edna-engine`](https://www.npmjs.com/package/edna-engine) on npm (MCP binary: `edna-mcp`):
+
 ```json
 {
   "mcpServers": {
     "edna": {
       "command": "npx",
-      "args": ["-y", "edna-mcp-server"],
+      "args": ["-y", "edna-engine"],
       "env": { "EDNA_LICENSE_KEY": "edna_live_…" }
     }
   }
 }
+```
+
+Evaluation/testing runs without a license key (EPCAL-1.0). A hosted remote endpoint is also available: `https://openos.space/mcp`.
+
+## Run with Docker
+
+```bash
+docker build -t edna-mcp .
+docker run -i edna-mcp
 ```
 
 ## Tools
